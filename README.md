@@ -8,6 +8,14 @@ Here are all the JDBC programs of MCA - 1(A)
 - Mysql
 - [JDBC Connector](https://dev.mysql.com/downloads/connector/j/)
 
+## Compile 
+
+```cmd
+javac -cp "Absolute_path_to_JDBC_driver;." Java_File.java
+java -cp "Absolute_path_to_JDBC_driver;." Java_File
+```
+
+
 ## Initial SQL Setup
 
 ```sql

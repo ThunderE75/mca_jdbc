@@ -2,9 +2,8 @@
 // Que 32
 import java.sql.*;
 
-public class JDBCExample {
+public class Q01_JDBCConnection {
     public static void main(String[] args) {
-        // creates Connection objects
         Connection conn1 = null;
 
         try {
@@ -18,7 +17,7 @@ public class JDBCExample {
                 System.out.println("Connected to the database!");
             }
         } catch (SQLException ex) {
-            System.out.println("An error occurred. Maybe user/password is invalid");
+            System.out.println("Exception caught! Maybe username or password is invalid");
             ex.printStackTrace();
         }
     }
