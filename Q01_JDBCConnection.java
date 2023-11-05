@@ -22,3 +22,7 @@ public class Q01_JDBCConnection {
         }
     }
 }
+
+// SHOW DATABASES;
+// CREATE DATABASE jdbc;
+// USE jdbc;

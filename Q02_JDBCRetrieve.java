@@ -20,6 +20,7 @@ class Q02_JDBCRetrieve {
     }
 }
 
+// USE jdbc;
 // CREATE TABLE books (
 // id INT,
 // name VARCHAR(32));
